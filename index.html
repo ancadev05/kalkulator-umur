@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitung Usia</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="assets/bootstrap5/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+         <div class="col-4 m-auto card mt-5 p-3 shadow">
+          <h4>Masukkan Tanggal Lahir Anda</h4>
+          <label for="tgl" class="form-label">Tanggal</label>
+          <input type="date" class="form-control" name="tgl" id="tgl" />
+          <small id="warning"></small>
+          <button class="btn btn-primary my-3" type="button" onclick="hitung()">
+            Hitung
+          </button>
+
+          <p>Usia Anda Saat ini:</p>
+          <ul>
+            <li id="tahun"></li>
+            <li id="bulan"></li>
+            <li id="hari"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

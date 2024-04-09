@@ -1,0 +1,31 @@
+/* body{
+    height: 100%;
+} */
+
+
+#kop table{
+    font-size: 25px;
+}
+
+#timer{
+    /* background-color: white; */
+    display: block;
+    /* padding:0px 87px; */
+    /* margin: auto; */
+    /* margin-block: ; */
+    font-size: 130px;
+    font-weight: bold;
+    /* line-height: 0; */
+    /* border:1px solid ; */
+    /* border-radius: 10%; */
+    /* transform: translate(-50%,-50%); */
+}
+
+.tbl-nilai{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#tbl-hasil{
+    font-size: 20px;
+}
